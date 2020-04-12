@@ -6,11 +6,11 @@ class Matrix {
         this.data = [];
 
         for (let i = 0; i < rows; i++) {
-            let arr = [];
+            let array = [];
             for (let j = 0; j < cols; j++) {
-                arr.push(Math.floor(Math.random() * 10));
+                array.push(0);
             }
-            this.data.push(arr);
+            this.data.push(array);
         }
     }
 
